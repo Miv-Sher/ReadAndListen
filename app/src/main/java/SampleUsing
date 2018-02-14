@@ -1,0 +1,4 @@
+BluemixRegister register = (BluemixRegister) getApplicationContext();
+List<UserStamp> stamps = register.getUserlist();
+а затем творишь с этим списком что хочешь
+не забывай обратно в BluemixRegister заливать (в примере они так и делают)

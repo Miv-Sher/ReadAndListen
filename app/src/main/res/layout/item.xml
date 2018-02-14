@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="3dp">
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="left"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:padding="10dp"
+    card_view:cardBackgroundColor="@color/card_background"
+    card_view:contentPadding="5dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/book_cover"
+            android:scaleType="fitStart"
+            android:src="@drawable/unknown_cover"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/name_color"
+            android:textSize="20dp"
+            android:paddingBottom="6dp"
+            android:id="@+id/book_name"
+            android:layout_toRightOf="@id/book_cover"
+            android:layout_alignParentTop="true"
+            android:text="HelloFuckingText!"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/author_color"
+            android:id="@+id/book_author"
+            android:layout_toRightOf="@+id/book_cover"
+            android:layout_below="@+id/book_name"
+            android:text="HelloFuckingText!2"
+            android:textSize="10dp"
+
+
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</LinearLayout>

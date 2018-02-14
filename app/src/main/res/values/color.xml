@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_color">#B6B6B6</color>
+    <color name="primary_text"> #727272</color>
+    <color name="primary_dark_color">#0288D1</color>
+    <color name="primary_color">#03A9F4</color>
+    <color name="actionbar_text">#ffffff</color>
+    <color name="background">#f1f1f1</color>
+    <color name="card_background">#fcfcfc</color>
+    <color name="name_color">#212121</color>
+    <color name="author_color">#727272</color>
+</resources>
